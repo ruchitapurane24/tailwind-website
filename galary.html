@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
      .pic{
       display: flex;
@@ -61,7 +62,7 @@
     </div>
 </nav>
 
-<div class="pic">
+<div class="pic" data-aos="flip-right">
   
   <a href="./men.html"><div class="card" style="width: 18rem;">
     <img src="./image/images/men-shirt.jpg" class="card-img-top" alt="...">
@@ -104,35 +105,18 @@
           <div class="col-12 col-sm-6 col-lg">
             <div class="single-footer-widget section_padding_0_130">
               <!-- Widget Title-->
-              <h5 class="widget-title">About</h5>
+              <h5 class="widget-title">PRODUCT</h5>
               <!-- Footer Menu-->
               <div class="footer_menu">
                 <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Corporate Sale</a></li>
-                  <li><a href="#">Terms &amp; Policy</a></li>
-                  <li><a href="#">Community</a></li>
+                  <li><a href="#">MEN</a></li>
+                  <li><a href="#">WOMEN</a></li>
+                  <li><a href="#">CATEGORY</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <!-- Single Widget-->
-          <div class="col-12 col-sm-6 col-lg">
-            <div class="single-footer-widget section_padding_0_130">
-              <!-- Widget Title-->
-              <h5 class="widget-title">Support</h5>
-              <!-- Footer Menu-->
-              <div class="footer_menu">
-                <ul>
-                  <li><a href="#">Help</a></li>
-                  <li><a href="#">Support</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Term &amp; Conditions</a></li>
-                  <li><a href="#">Help &amp; Support</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          
           <!-- Single Widget-->
           <div class="col-12 col-sm-6 col-lg">
             <div class="single-footer-widget section_padding_0_130">
@@ -154,7 +138,10 @@
     </footer>
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
